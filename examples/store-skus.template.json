@@ -1,0 +1,19 @@
+[
+  {
+    "skuId": "STORE-001",
+    "merchantId": "your-store-id",
+    "merchantName": "你的门店名称",
+    "name": "高原晨雾 · 水洗",
+    "status": "available",
+    "stockStatus": "in_stock",
+    "price": 38,
+    "currency": "CNY",
+    "region": "baoshan",
+    "processing": "water",
+    "roast": "浅烘焙",
+    "brew": "手冲友好",
+    "tags": ["fruit", "light", "low-acid"],
+    "flavors": { "acid": "acidCitrus", "sweet": "sweetHoney", "bitter": "bitterClean", "aroma": "aromaFruit", "body": "bodyLight" },
+    "orderUrl": ""
+  }
+]
