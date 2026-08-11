@@ -1,0 +1,16 @@
+# Netlify 本地状态与构建产物
+.netlify/
+.cache/
+dist/
+
+# 本地环境变量与凭证（保留示例文件）
+.env
+.env.*
+!.env.example
+
+# 依赖、日志与系统文件
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
