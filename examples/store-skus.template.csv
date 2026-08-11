@@ -1,0 +1,2 @@
+skuId,merchantId,merchantName,name,status,stockStatus,price,currency,region,processing,roast,brew,tags,acid,sweet,bitter,aroma,body,orderUrl
+STORE-001,your-store-id,你的门店名称,高原晨雾·水洗,available,in_stock,38,CNY,baoshan,water,浅烘焙,手冲友好,"fruit|light|low-acid",acidCitrus,sweetHoney,bitterClean,aromaFruit,bodyLight,
