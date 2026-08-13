@@ -91,6 +91,10 @@ node --check netlify/functions/feishu-events.mjs
 - 用户反馈仅用于风味描述准确度记录；接入真实门店前应补充速率限制、生产域名 CORS 白名单与 URL 白名单。
 - 第三方提交涉及 SKU、Netlify 函数或部署配置时，应进行人工审查。
 
+## 自动校验
+
+GitHub Actions 会在推送到 `main` 和向 `main` 发起 PR 时，自动执行 SKU 配置校验与 JavaScript 语法检查。工作流定义见 [`.github/workflows/validate.yml`](.github/workflows/validate.yml)。
+
 ## 路线图
 
 - [ ] 将门店 SKU 配置迁移为 JSON Schema 可校验的数据格式。
