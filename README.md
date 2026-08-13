@@ -95,6 +95,10 @@ node --check netlify/functions/feishu-events.mjs
 
 GitHub Actions 会在推送到 `main` 和向 `main` 发起 PR 时，自动执行 SKU 配置校验与 JavaScript 语法检查。工作流定义见 [`.github/workflows/validate.yml`](.github/workflows/validate.yml)。
 
+## 参与维护
+
+贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)，漏洞报告与当前安全边界见 [SECURITY.md](SECURITY.md)。
+
 ## 路线图
 
 - [ ] 将门店 SKU 配置迁移为 JSON Schema 可校验的数据格式。
